@@ -1,0 +1,112 @@
+/**
+ * Category metadata — updated to match reference image design
+ */
+
+export const CATEGORIES = {
+  venue: {
+    label: 'Event Venue',
+    filterLabel: 'Event Venues',
+    emoji: '🎤',
+    markerColor: '#e53e3e',
+    markerEmoji: '🎙',
+    bgClass: 'bg-red-50',
+    textClass: 'text-red-600',
+    borderClass: 'border-red-200',
+  },
+  building: {
+    label: 'Building',
+    filterLabel: 'Buildings',
+    emoji: '🏢',
+    markerColor: '#3182ce',
+    markerEmoji: '🏛',
+    bgClass: 'bg-blue-50',
+    textClass: 'text-blue-600',
+    borderClass: 'border-blue-200',
+  },
+  gate: {
+    label: 'Entry / Gate',
+    filterLabel: 'Gates',
+    emoji: '🚪',
+    markerColor: '#38a169',
+    markerEmoji: '🚪',
+    bgClass: 'bg-green-50',
+    textClass: 'text-green-600',
+    borderClass: 'border-green-200',
+  },
+  parking: {
+    label: 'Parking',
+    filterLabel: 'Parking',
+    emoji: '🅿️',
+    markerColor: '#2b6cb0',
+    markerEmoji: '🅿',
+    bgClass: 'bg-blue-50',
+    textClass: 'text-blue-700',
+    borderClass: 'border-blue-200',
+  },
+  food: {
+    label: 'Food & Cafeteria',
+    filterLabel: 'Food & Cafeteria',
+    emoji: '🍴',
+    markerColor: '#d97706',
+    markerEmoji: '🍽',
+    bgClass: 'bg-amber-50',
+    textClass: 'text-amber-700',
+    borderClass: 'border-amber-200',
+  },
+  washroom: {
+    label: 'Washroom',
+    filterLabel: 'Washrooms',
+    emoji: '🚻',
+    markerColor: '#7c3aed',
+    markerEmoji: '🚻',
+    bgClass: 'bg-violet-50',
+    textClass: 'text-violet-600',
+    borderClass: 'border-violet-200',
+  },
+  help: {
+    label: 'Help Desk',
+    filterLabel: 'Help Desk',
+    emoji: '🆘',
+    markerColor: '#059669',
+    markerEmoji: '❓',
+    bgClass: 'bg-emerald-50',
+    textClass: 'text-emerald-700',
+    borderClass: 'border-emerald-200',
+  },
+  emergency: {
+    label: 'Medical / Emergency',
+    filterLabel: 'Medical',
+    emoji: '🏥',
+    markerColor: '#db2777',
+    markerEmoji: '➕',
+    bgClass: 'bg-pink-50',
+    textClass: 'text-pink-600',
+    borderClass: 'border-pink-200',
+  },
+  other: {
+    label: 'Other',
+    filterLabel: 'Others',
+    emoji: '📍',
+    markerColor: '#6366f1',
+    markerEmoji: '⭐',
+    bgClass: 'bg-indigo-50',
+    textClass: 'text-indigo-600',
+    borderClass: 'border-indigo-200',
+  },
+};
+
+export const FILTER_ORDER = [
+  'venue',
+  'building',
+  'gate',
+  'parking',
+  'food',
+  'washroom',
+  'help',
+  'emergency',
+  'other',
+];
+
+export const QUICK_ACCESS = [
+  'venue', 'gate', 'parking', 'food', 'washroom', 'help', 'emergency',
+];
